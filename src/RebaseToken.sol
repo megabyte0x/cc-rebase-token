@@ -43,8 +43,8 @@ contract RebaseToken is ERC20, Ownable, AccessControl {
     ////////////////////////
     /// State Variables ////
     ////////////////////////
-    uint256 private s_interestRate = 5e10; // interest rate per second
     uint256 private constant PRECISION_FACTOR = 1e18;
+    uint256 private s_interestRate = (5 * PRECISION_FACTOR) / 1e8; // interest rate per second
     bytes32 private constant MINT_AND_BURN_ROLE = keccak256("MINT_AND_BURN_ROLE");
 
     mapping(address user => uint256 userInterestRate) private s_userInterestRate;
@@ -101,14 +101,8 @@ contract RebaseToken is ERC20, Ownable, AccessControl {
      * @notice Burn tokens from the user.
      * @param _from The address to burn tokens from.
      * @param _amount The amount of tokens to burn.
-     * @dev If the amount is the max value, the entire balance (principal and accrued interest) will be burned. This is to avoid dust tokens.
      */
     function burn(address _from, uint256 _amount) external onlyRole(MINT_AND_BURN_ROLE) {
-        // If the amount is the max value, burn the entire balance (principal and accrued interest)
-        if (_amount == type(uint256).max) {
-            _amount = balanceOf(_from);
-        }
-
         // Mint the accrued interest to the user
         _mintAccruedInterest(_from);
 
