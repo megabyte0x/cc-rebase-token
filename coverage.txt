@@ -1,5 +1,5 @@
-Compiling 33 files with Solc 0.8.30
-Solc 0.8.30 finished in 1.11s
+Compiling 33 files with Solc 0.8.24
+Solc 0.8.24 finished in 1.11s
 Compiler run successful with warnings:
 Warning (9302): Return value of low-level calls not used.
   --> test/unit/RebaseTokenTest.t.sol:20:9:
@@ -50,29 +50,29 @@ Uncovered for src/Vault.sol:
 - Line (location: source ID 30, lines 82..83, bytes 2336..2365, hits: 0)
 - Statement (location: source ID 30, lines 82..83, bytes 2336..2365, hits: 0)
 
-Anchors for Contract "StdCheatsSafe" (solc 0.8.30, source ID 3):
+Anchors for Contract "StdCheatsSafe" (solc 0.8.24, source ID 3):
 
-Anchors for Contract "stdStorage" (solc 0.8.30, source ID 9):
+Anchors for Contract "stdStorage" (solc 0.8.24, source ID 9):
 
-Anchors for Contract "StdUtils" (solc 0.8.30, source ID 12):
+Anchors for Contract "StdUtils" (solc 0.8.24, source ID 12):
 
-Anchors for Contract "stdError" (solc 0.8.30, source ID 5):
+Anchors for Contract "stdError" (solc 0.8.24, source ID 5):
 
-Anchors for Contract "IAccessControl" (solc 0.8.30, source ID 20):
+Anchors for Contract "IAccessControl" (solc 0.8.24, source ID 20):
 
-Anchors for Contract "AccessControl" (solc 0.8.30, source ID 19):
+Anchors for Contract "AccessControl" (solc 0.8.24, source ID 19):
 
-Anchors for Contract "CommonBase" (solc 0.8.30, source ID 0):
+Anchors for Contract "CommonBase" (solc 0.8.24, source ID 0):
 
-Anchors for Contract "RebaseTokenTest" (solc 0.8.30, source ID 32):
+Anchors for Contract "RebaseTokenTest" (solc 0.8.24, source ID 32):
 
-Anchors for Contract "IERC721Errors" (solc 0.8.30, source ID 22):
+Anchors for Contract "IERC721Errors" (solc 0.8.24, source ID 22):
 
-Anchors for Contract "IMulticall3" (solc 0.8.30, source ID 17):
+Anchors for Contract "IMulticall3" (solc 0.8.24, source ID 17):
 
-Anchors for Contract "Vm" (solc 0.8.30, source ID 14):
+Anchors for Contract "Vm" (solc 0.8.24, source ID 14):
 
-Anchors for Contract "RebaseToken" (solc 0.8.30, source ID 29):
+Anchors for Contract "RebaseToken" (solc 0.8.24, source ID 29):
 - IC 957 -> Item 0
 - Creation code
   - Refers to item: Line (location: source ID 29, lines 68..71, bytes 2077..2201, hits: 13)
@@ -452,35 +452,35 @@ Anchors for Contract "RebaseToken" (solc 0.8.30, source ID 29):
 - Creation code
   - Refers to item: Statement (location: source ID 29, lines 246..247, bytes 9266..9287, hits: 1)
 
-Anchors for Contract "ERC20" (solc 0.8.30, source ID 23):
+Anchors for Contract "ERC20" (solc 0.8.24, source ID 23):
 
-Anchors for Contract "stdMath" (solc 0.8.30, source ID 8):
+Anchors for Contract "stdMath" (solc 0.8.24, source ID 8):
 
-Anchors for Contract "ERC165" (solc 0.8.30, source ID 27):
+Anchors for Contract "ERC165" (solc 0.8.24, source ID 27):
 
-Anchors for Contract "stdToml" (solc 0.8.30, source ID 11):
+Anchors for Contract "stdToml" (solc 0.8.24, source ID 11):
 
-Anchors for Contract "StdStyle" (solc 0.8.30, source ID 10):
+Anchors for Contract "StdStyle" (solc 0.8.24, source ID 10):
 
-Anchors for Contract "IERC20" (solc 0.8.30, source ID 24):
+Anchors for Contract "IERC20" (solc 0.8.24, source ID 24):
 
-Anchors for Contract "IERC165" (solc 0.8.30, source ID 28):
+Anchors for Contract "IERC165" (solc 0.8.24, source ID 28):
 
-Anchors for Contract "console" (solc 0.8.30, source ID 15):
+Anchors for Contract "console" (solc 0.8.24, source ID 15):
 
-Anchors for Contract "TestBase" (solc 0.8.30, source ID 0):
+Anchors for Contract "TestBase" (solc 0.8.24, source ID 0):
 
-Anchors for Contract "stdJson" (solc 0.8.30, source ID 7):
+Anchors for Contract "stdJson" (solc 0.8.24, source ID 7):
 
-Anchors for Contract "StdAssertions" (solc 0.8.30, source ID 1):
+Anchors for Contract "StdAssertions" (solc 0.8.24, source ID 1):
 
-Anchors for Contract "VmSafe" (solc 0.8.30, source ID 14):
+Anchors for Contract "VmSafe" (solc 0.8.24, source ID 14):
 
-Anchors for Contract "stdStorageSafe" (solc 0.8.30, source ID 9):
+Anchors for Contract "stdStorageSafe" (solc 0.8.24, source ID 9):
 
-Anchors for Contract "Ownable" (solc 0.8.30, source ID 21):
+Anchors for Contract "Ownable" (solc 0.8.24, source ID 21):
 
-Anchors for Contract "Vault" (solc 0.8.30, source ID 30):
+Anchors for Contract "Vault" (solc 0.8.24, source ID 30):
 - IC 5 -> Item 126
 - Runtime code
   - Refers to item: Line (location: source ID 30, lines 29..32, bytes 662..755, hits: 13)
@@ -596,27 +596,27 @@ Anchors for Contract "Vault" (solc 0.8.30, source ID 30):
 - Creation code
   - Refers to item: Statement (location: source ID 30, lines 82..83, bytes 2336..2365, hits: 0)
 
-Anchors for Contract "StdInvariant" (solc 0.8.30, source ID 6):
+Anchors for Contract "StdInvariant" (solc 0.8.24, source ID 6):
 
-Anchors for Contract "IRebaseToken" (solc 0.8.30, source ID 31):
+Anchors for Contract "IRebaseToken" (solc 0.8.24, source ID 31):
 
-Anchors for Contract "ScriptBase" (solc 0.8.30, source ID 0):
+Anchors for Contract "ScriptBase" (solc 0.8.24, source ID 0):
 
-Anchors for Contract "safeconsole" (solc 0.8.30, source ID 18):
+Anchors for Contract "safeconsole" (solc 0.8.24, source ID 18):
 
-Anchors for Contract "IERC20Metadata" (solc 0.8.30, source ID 25):
+Anchors for Contract "IERC20Metadata" (solc 0.8.24, source ID 25):
 
-Anchors for Contract "StdCheats" (solc 0.8.30, source ID 3):
+Anchors for Contract "StdCheats" (solc 0.8.24, source ID 3):
 
-Anchors for Contract "StdConstants" (solc 0.8.30, source ID 4):
+Anchors for Contract "StdConstants" (solc 0.8.24, source ID 4):
 
-Anchors for Contract "StdChains" (solc 0.8.30, source ID 2):
+Anchors for Contract "StdChains" (solc 0.8.24, source ID 2):
 
-Anchors for Contract "Test" (solc 0.8.30, source ID 13):
+Anchors for Contract "Test" (solc 0.8.24, source ID 13):
 
-Anchors for Contract "Context" (solc 0.8.30, source ID 26):
+Anchors for Contract "Context" (solc 0.8.24, source ID 26):
 
-Anchors for Contract "IERC1155Errors" (solc 0.8.30, source ID 22):
+Anchors for Contract "IERC1155Errors" (solc 0.8.24, source ID 22):
 
-Anchors for Contract "IERC20Errors" (solc 0.8.30, source ID 22):
+Anchors for Contract "IERC20Errors" (solc 0.8.24, source ID 22):
 

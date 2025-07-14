@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.30;
+pragma solidity ^0.8.24;
 
 import {IRebaseToken} from "./interfaces/IRebaseToken.sol";
 
@@ -44,7 +44,8 @@ contract Vault {
         uint256 amountReceived = msg.value;
         address sender = msg.sender;
 
-        i_rebaseToken.mint(sender, amountReceived);
+        uint256 interestRate = i_rebaseToken.getInterestRate();
+        i_rebaseToken.mint(sender, amountReceived, interestRate);
 
         emit Vault_Deposit(sender, amountReceived);
     }
